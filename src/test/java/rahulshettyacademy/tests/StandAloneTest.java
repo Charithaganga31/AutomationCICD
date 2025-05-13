@@ -52,6 +52,7 @@ public void submitOrder(HashMap<String,String> input) throws IOException, Interr
 		ConfirmPage confirmPage=	checkoutPage.placeOrder();
 		String msg=confirmPage.confirmMsg();
 		Assert.assertTrue(msg.equalsIgnoreCase("Thankyou for the order."));
+	Assert.assertTrue(true);
 		
 
 	}
